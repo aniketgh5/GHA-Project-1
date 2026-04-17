@@ -1,11 +1,11 @@
 name: Build-Push-Deploy #name of the workflow
 on: 
   push:
-    branch: [ "main" ]
+    branches: [ "main" ]
 
 jobs:
   build_push_deploy:
-    runs-on: self-hosted #ubuntu-latest #github-hosted-runner
+    runs-on: ubuntu-latest #self-hosted #ubuntu-latest #github-hosted-runner
 
     steps:
     - name: Checkout Code
