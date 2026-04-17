@@ -5,7 +5,7 @@ on:
 
 jobs:
   build_push_deploy:
-    runs-on: selfhosted #ubuntu-latest #github-hosted-runner
+    runs-on: self-hosted #ubuntu-latest #github-hosted-runner
 
     steps:
     - name: Checkout Code
